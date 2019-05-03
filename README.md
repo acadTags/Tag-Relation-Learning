@@ -2,6 +2,8 @@
 
 This program contains the source code and materials for the paper titled "Knowledge Base Enrichment by Relation Learning from Social Tagging Data". Files and data over the size limit of GitHub can be downloaded from [OneDrive]().
 
+To be completed.
+
 # Requirements
 * [MALLET](http://mallet.cs.umass.edu/index.php) for topic modelling
 * Java package: [LevenshteinAutomaton](https://github.com/klawson88/LevenshteinAutomaton) for semantic grounding
