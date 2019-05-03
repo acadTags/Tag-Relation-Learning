@@ -18,7 +18,10 @@ To be completed by early May.
 
 # Quick guide
 
-View or run the ```visualise_hierarchy.m``` to see the learned hierarchies for the selected sub-domains (data mining, e-commerce, information retrieval, machine learning, research methods, social software) in the ```Hierarchy Visualisation``` folder.
+View or run the ```visualise_hierarchy.m``` to see the learned hierarchies for the selected sub-domains (data mining, e-commerce, information retrieval, machine learning, research methods, social software) in the ```Hierarchy Visualisation``` folder. Two of the learned hierarchies are displayed below.
+
+![alt text](https://github.com/acadTags/tag-relation-learning/blob/master/Hierarchy%20Visualisation/data_mining_dbpedia_svm.PNG)
+![alt text](https://github.com/acadTags/tag-relation-learning/blob/master/Hierarchy%20Visualisation/machine_learning_acm_svm.PNG)
 
 Generate hierarchies with the seed root tags with the proposed feature set by running ```main_ontology_generation.m``` in the ```Feature Generation, Hierarcy Generation, Relation-level evaluation``` folder. You can choose which set of seed root tags to use by changing the value of ```seed_file_name``` in ```main_ontology_generation.m```.
 
