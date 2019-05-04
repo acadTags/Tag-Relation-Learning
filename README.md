@@ -30,7 +30,7 @@ Generate hierarchies with the seed root tags with the proposed feature set by ru
 To generate hierarchies also with other baselines, run ```main_ontology_level_eval.m'''.
 
 #### Ontology-level evaluation
-After the hierarchies are learned (each as a generated ```.csv``` file), you can put the learned hierarchies together in a folder and then evaluate the hierarchies with the automated ontology-level evaluation (described in the paper, Section 6.4.2). This is done by running the ```TaxonomicCSCforPredictionSubKBfromFolder.java''' in the ```Semantic Grounding, Instance Labelling, Ontology-level evaluation``` folder.
+After the hierarchies are learned (each as a generated ```.csv``` file), you can put the learned hierarchies together in a folder and then evaluate the hierarchies with the automated ontology-level evaluation (described in the paper, Section 6.4.2). This is done by running the ```TaxonomicCSCforPredictionSubKBfromFolder.java``` in the ```Semantic Grounding, Instance Labelling, Ontology-level evaluation``` folder.
 
 # Detailed guide
 to be updated soon
