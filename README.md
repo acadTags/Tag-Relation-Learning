@@ -14,7 +14,7 @@ To be completed by early May.
 * ```Data representation``` folder: the MALLET command-line code to process social tags
 * ```Feature Generation, Hierarcy Generation, Relation-level evaluation``` folder: the Matlab code for the corresponding modules in the system
 * ```Semantic Grounding, Instance Labelling, Ontology-level evaluation``` folder: the JAVA code for the corresponding modules in the system and the evaulation results
-* ```Enrichment-level evaluation``` folder: the cover letter, evaluation sheet and evaluation results for the manual assessment of enriched relations
+* ```Knowledge Base Enrichment based evaluation``` folder: the cover letter, evaluation sheet and evaluation results for the manual assessment of enriched relations
 * ```Hierarchy Visualisation``` folder: the Matlab code to visualise some learned hierarchy in several selected sub-domains
 
 # Quick start
@@ -38,7 +38,8 @@ Load the ```bibsonomy_hier_instances_final_0.001_features_14ft_ori.mat``` file f
 
 The training and testing with grid search of SVM RBF models are implemented in ```libsvm_training.m```.
 
-#### Knowledge base enrichment based evaluation
+#### Knowledge Base Enrichment based evaluation
+See the cover letter, evaluation sheet and results from the folder. The multi-rater Fleis kappa and the  free-marginal kappa can be calculated with the [Online Kappa Calculator](http://justusrandolph.net/kappa/).
 
 # Detailed guide
 to be updated soon
