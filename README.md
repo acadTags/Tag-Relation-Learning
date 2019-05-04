@@ -19,6 +19,8 @@ Preprint will be available soon.
 
 # Quick start and tutorial
 
+The input of this system is a set of cleaned bags-of-tags, each bag is the tags associated to a document in [Bibsonomy](https://www.bibsonomy.org/). The input file is [bibsonomy_cleaned_tags](https://github.com/acadTags/tag-relation-learning/blob/master/Data%20representation/bibsonomy_cleaned_tags.txt).
+
 #### View the Learned Hierarchies
 View or run the ```visualise_hierarchy.m``` to see the learned hierarchies for the selected sub-domains (data mining, e-commerce, information retrieval, machine learning, research methods, social software) in the [```Hierarchy Visualisation```](https://github.com/acadTags/tag-relation-learning/tree/master/Hierarchy%20Visualisation) folder. Two of the learned hierarchies are displayed below.
 
