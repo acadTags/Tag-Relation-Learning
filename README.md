@@ -19,7 +19,7 @@ Preprint will be available soon.
 
 # Quick start and tutorial
 
-The input of this system is a set of cleaned bags-of-tags, each bag is the tags associated to a document in [Bibsonomy](https://www.bibsonomy.org/). The input file is [bibsonomy_cleaned_tags](https://github.com/acadTags/tag-relation-learning/blob/master/Data%20representation/bibsonomy_cleaned_tags.txt).
+The input of this system is a set of cleaned bags-of-tags, each bag is the tags associated to a document in [Bibsonomy](https://www.bibsonomy.org/). The input file is [bibsonomy_cleaned_tags.txt](https://github.com/acadTags/tag-relation-learning/blob/master/Data%20representation/bibsonomy_cleaned_tags.txt), cleaned from the ```2015-07-01``` version of the [Bibsonomy dataset](https://www.kde.cs.uni-kassel.de/wp-content/uploads/bibsonomy/).
 
 #### View the Learned Hierarchies
 View or run the ```visualise_hierarchy.m``` to see the learned hierarchies for the selected sub-domains (data mining, e-commerce, information retrieval, machine learning, research methods, social software) in the [```Hierarchy Visualisation```](https://github.com/acadTags/tag-relation-learning/tree/master/Hierarchy%20Visualisation) folder. Two of the learned hierarchies are displayed below.
@@ -41,7 +41,7 @@ Load the ```bibsonomy_hier_instances_final_0.001_features_14ft_ori.mat``` file, 
 The training and testing with grid search of SVM RBF models are implemented in [```libsvm_training.m```](https://github.com/acadTags/tag-relation-learning/blob/master/Feature%20Generation%2C%20Hierarchy%20Generation%2C%20Relation-level%20evaluation/libsvm_training.m).
 
 #### Knowledge Base Enrichment based evaluation
-See the cover letter, evaluation sheet and results from the folder. The multi-rater Fleis kappa and the  free-marginal kappa can be calculated with the [Online Kappa Calculator](http://justusrandolph.net/kappa/).
+See the cover letter, evaluation sheet and results from the folder. The multi-rater Fleis kappa and the  free-marginal kappa can be calculated with the [Online Kappa Calculator](http://justusrandolph.net/kappa/). The enriched relations were obtained by running [OutputEnrichedRelations.java](https://github.com/acadTags/tag-relation-learning/blob/master/Semantic%20Grounding%2C%20Instance%20Labelling%2C%20Ontology-level%20evaluation/KnowledgeBaseTools/src/main/java/com/mycompany/OntologyLevelEvaluation/OutputEnrichedRelations.java).
 
 #### Data Representation with MALLET
 The command-line commands to run Latent Dirichlet Allocation and following steps are written in the [```Data Representaion Notes.pdf```](https://github.com/acadTags/tag-relation-learning/blob/master/Data%20representation/Data%20Representation%20Notes.pdf) in the folder.
@@ -50,7 +50,7 @@ The command-line commands to run Latent Dirichlet Allocation and following steps
 Code relevant to the Retrieval or Querying of Knowledge Base is in the package ```ACMCCSextraction```, ```DBpediaExtraction``` and ```MCGextraction```. Code relevant to the Semantic Grounding and Instance Labelling is in the package map2knowledgebases. [```QueryKB2Label.java```](https://github.com/acadTags/tag-relation-learning/blob/master/Semantic%20Grounding%2C%20Instance%20Labelling%2C%20Ontology-level%20evaluation/KnowledgeBaseTools/src/main/java/com/mycompany/map2knowledgeBase/QueryKB2Label.java) is the main program for instance labelling with the three Knowledge Bases.
 
 # Acknowledgement
-* The official Bibsonomy dataset is acquired from https://www.kde.cs.uni-kassel.de/bibsonomy/dumps/ after request.
+* The official Bibsonomy dataset is acquired from https://www.kde.cs.uni-kassel.de/wp-content/uploads/bibsonomy/ after request.
 * The whole Microsoft Concept Graph is acquired from https://concept.research.microsoft.com/Home/Introduction.
 * The DBpedia dataset, 2015-10 version, is from http://downloads.dbpedia.org/2015-10/.
 * The ACM Computing Classification System is from https://www.acm.org/publications/class-2012.
