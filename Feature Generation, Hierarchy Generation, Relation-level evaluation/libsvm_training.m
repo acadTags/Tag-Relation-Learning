@@ -1,4 +1,4 @@
-rng('default'); % try to fix the rand number generation?
+rng('default');
 clearvars;
 
 % specify the suffix of the training/testing data file name.
