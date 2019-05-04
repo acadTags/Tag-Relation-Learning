@@ -38,6 +38,8 @@ Load the ```bibsonomy_hier_instances_final_0.001_features_14ft_ori.mat``` file f
 
 The training and testing with grid search of SVM RBF models are implemented in ```libsvm_training.m```.
 
+#### Knowledge base enrichment based evaluation
+
 # Detailed guide
 to be updated soon
 
