@@ -47,7 +47,7 @@ See the cover letter, evaluation sheet and results from the folder. The multi-ra
 The command-line commands to run Latent Dirichlet Allocation and the following steps are written in the [```Data Representaion Notes.pdf```](https://github.com/acadTags/tag-relation-learning/blob/master/Data%20representation/Data%20Representation%20Notes.pdf) in the folder.
 
 #### Semantic Grounding, Instance Labelling
-Code relevant to the Retrieval or Querying of Knowledge Base is in the package ```ACMCCSextraction```, ```DBpediaExtraction``` and ```MCGextraction```. Code relevant to the Semantic Grounding and Instance Labelling is in the package map2knowledgebases. [```QueryKB2Label.java```](https://github.com/acadTags/tag-relation-learning/blob/master/Semantic%20Grounding%2C%20Instance%20Labelling%2C%20Ontology-level%20evaluation/KnowledgeBaseTools/src/main/java/com/mycompany/map2knowledgeBase/QueryKB2Label.java) is the main program for instance labelling with the three Knowledge Bases.
+Code relevant to the Retrieval or Querying of Knowledge Base is in the package ```ACMCCSextraction```, ```DBpediaExtraction``` and ```MCGextraction```. Code relevant to the Semantic Grounding and Instance Labelling is in the package ```map2knowledgebases```. [```QueryKB2Label.java```](https://github.com/acadTags/tag-relation-learning/blob/master/Semantic%20Grounding%2C%20Instance%20Labelling%2C%20Ontology-level%20evaluation/KnowledgeBaseTools/src/main/java/com/mycompany/map2knowledgeBase/QueryKB2Label.java) is the main program for instance labelling with the three Knowledge Bases.
 
 # Acknowledgement
 * The official Bibsonomy dataset is acquired from https://www.kde.cs.uni-kassel.de/wp-content/uploads/bibsonomy/ after request.
