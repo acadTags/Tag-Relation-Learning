@@ -7,25 +7,30 @@ To be completed by early May.
 # Requirements
 * [MALLET](http://mallet.cs.umass.edu/index.php) for topic modelling
 * Java package: [LevenshteinAutomaton](https://github.com/klawson88/LevenshteinAutomaton) for semantic grounding
-* Matlab: Classification Learner app for classification
+* Matlab: [Classification Learner app](https://www.mathworks.com/help/stats/classificationlearner-app.html) for classification
 
 # Contents
-* ```Data representation``` folder contains the MALLET command-line code to process social tags
-* ```Feature Generation, Hierarcy Generation, Relation-level evaluation``` folder contains the Matlab code for the corresponding modules in the system
-* ```Semantic Grounding, Instance Labelling, Ontology-level evaluation``` folder contains the JAVA code for the corresponding modules in the system and the evaulation results
-* ```Enrichment-level evaluation``` folder contains the cover letter, evaluation sheet and evaluation results for the manual assessment of enriched relations
+* ```Data representation``` folder: the MALLET command-line code to process social tags
+* ```Feature Generation, Hierarcy Generation, Relation-level evaluation``` folder: the Matlab code for the corresponding modules in the system
+* ```Semantic Grounding, Instance Labelling, Ontology-level evaluation``` folder: the JAVA code for the corresponding modules in the system and the evaulation results
+* ```Enrichment-level evaluation``` folder: the cover letter, evaluation sheet and evaluation results for the manual assessment of enriched relations
 * ```Hierarchy Visualisation``` folder contains the Matlab code to visualise some learned hierarchy in several selected sub-domains
 
-# Quick guide
+# Quick start
 
+#### View the Learned Hierarchies
 View or run the ```visualise_hierarchy.m``` to see the learned hierarchies for the selected sub-domains (data mining, e-commerce, information retrieval, machine learning, research methods, social software) in the ```Hierarchy Visualisation``` folder. Two of the learned hierarchies are displayed below.
 
 ![alt text](https://github.com/acadTags/tag-relation-learning/blob/master/Hierarchy%20Visualisation/data_mining_dbpedia_svm.PNG)
 ![alt text](https://github.com/acadTags/tag-relation-learning/blob/master/Hierarchy%20Visualisation/machine_learning_acm_svm.PNG)
 
+#### Hierarchy Generation
 Generate hierarchies with the seed root tags with the proposed feature set by running ```main_ontology_generation.m``` in the ```Feature Generation, Hierarcy Generation, Relation-level evaluation``` folder. You can choose which set of seed root tags to use by changing the value of ```seed_file_name``` in ```main_ontology_generation.m```.
 
-After the hierarchies are learned (each as a generated ```.csv``` file), you can put the learned hierarchies together in a folder and then evaluate the hierarchies with the automated ontology-level evaluation (described in the paper, Section 6.4.2). This is done by running the ```TaxonomicCSCforPredictionSubKBfromFolder.java''' in the ```Semantic Grounding, Instance Labelling, Ontology-level evaluation``` folder. The program needs to create a blank folder to contain the reference (ground truth) hierarchies and then compares the folder with learned hierarchies with the folder of reference hierarchies to generate an averaged Taxonomic Precision, Taxonomic Recall and then a final Taxonomic F-measure.
+To generate hierarchies also with other baselines, run ```main_ontology_level_eval.m'''.
+
+#### Ontology-level evaluation
+After the hierarchies are learned (each as a generated ```.csv``` file), you can put the learned hierarchies together in a folder and then evaluate the hierarchies with the automated ontology-level evaluation (described in the paper, Section 6.4.2). This is done by running the ```TaxonomicCSCforPredictionSubKBfromFolder.java''' in the ```Semantic Grounding, Instance Labelling, Ontology-level evaluation``` folder.
 
 # Detailed guide
 to be updated soon
