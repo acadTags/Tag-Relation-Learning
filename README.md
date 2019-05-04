@@ -42,9 +42,10 @@ The training and testing with grid search of SVM RBF models are implemented in `
 See the cover letter, evaluation sheet and results from the folder. The multi-rater Fleis kappa and the  free-marginal kappa can be calculated with the [Online Kappa Calculator](http://justusrandolph.net/kappa/).
 
 #### Data Representation with MALLET
+The command-line commands to run Latent Dirichlet Allocation and following steps are written in the ```Data Representaion Notes.pdf``` in the folder.
 
 #### Semantic Grounding, Instance Labelling
-
+Code relevant to the Retrieval or Querying of Knowledge Base is in the package ```ACMCCSextraction```, ```DBpediaExtraction``` and ```MCGextraction```. Code relevant to the Semantic Grounding and Instance Labelling is in the package map2knowledgebases. ```QueryKB2Label.java``` is the main program for instance labelling with the three Knowledge Bases.
 
 # Acknowledgement
 * The official Bibsonomy dataset is acquired from https://www.kde.cs.uni-kassel.de/bibsonomy/dumps/ after request.
