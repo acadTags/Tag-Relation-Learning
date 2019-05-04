@@ -17,7 +17,7 @@ To be completed by early May.
 * ```Knowledge Base Enrichment based evaluation``` folder: the cover letter, evaluation sheet and evaluation results for the manual assessment of enriched relations
 * ```Hierarchy Visualisation``` folder: the Matlab code to visualise some learned hierarchy in several selected sub-domains
 
-# Quick start
+# Quick start and tutorial
 
 #### View the Learned Hierarchies
 View or run the ```visualise_hierarchy.m``` to see the learned hierarchies for the selected sub-domains (data mining, e-commerce, information retrieval, machine learning, research methods, social software) in the ```Hierarchy Visualisation``` folder. Two of the learned hierarchies are displayed below.
@@ -41,8 +41,10 @@ The training and testing with grid search of SVM RBF models are implemented in `
 #### Knowledge Base Enrichment based evaluation
 See the cover letter, evaluation sheet and results from the folder. The multi-rater Fleis kappa and the  free-marginal kappa can be calculated with the [Online Kappa Calculator](http://justusrandolph.net/kappa/).
 
-# Detailed guide
-to be updated soon
+#### Data Representation with MALLET
+
+#### Semantic Grounding, Instance Labelling
+
 
 # Acknowledgement
 * The official Bibsonomy dataset is acquired from https://www.kde.cs.uni-kassel.de/bibsonomy/dumps/ after request.
