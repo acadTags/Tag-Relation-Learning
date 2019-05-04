@@ -10,7 +10,7 @@ Preprint will be available soon.
 * [LIBSVM](https://www.csie.ntu.edu.tw/~cjlin/libsvm/) Matlab version for Classification and Testing with SVM RBF models. 
 * Matlab [Classification Learner App](https://www.mathworks.com/help/stats/classificationlearner-app.html) for Classification and Testing with other classifiers
 
-# Contents
+# Content
 * ```Data representation``` folder: the MALLET command-line code to process social tags
 * ```Feature Generation, Hierarcy Generation, Relation-level evaluation``` folder: the Matlab code for the corresponding modules in the system
 * ```Semantic Grounding, Instance Labelling, Ontology-level evaluation``` folder: the JAVA code for the corresponding modules in the system and the evaulation results
