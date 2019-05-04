@@ -2,7 +2,7 @@
 
 This program contains the source code and materials for the paper titled "Knowledge Base Enrichment by Relation Learning from Social Tagging Data", submitted to Information Science. Files and data over the size limit of GitHub can be downloaded from [OneDrive]().
 
-To be completed by early May. Preprint will be available soon.
+Preprint will be available soon.
 
 # Requirements
 * [MALLET](http://mallet.cs.umass.edu/index.php) for Data Representation with Topic Modelling
@@ -20,7 +20,7 @@ To be completed by early May. Preprint will be available soon.
 # Quick start and tutorial
 
 #### View the Learned Hierarchies
-View or run the ```visualise_hierarchy.m``` to see the learned hierarchies for the selected sub-domains (data mining, e-commerce, information retrieval, machine learning, research methods, social software) in the ```Hierarchy Visualisation``` folder. Two of the learned hierarchies are displayed below.
+View or run the ```visualise_hierarchy.m``` to see the learned hierarchies for the selected sub-domains (data mining, e-commerce, information retrieval, machine learning, research methods, social software) in the [```Hierarchy Visualisation```](https://github.com/acadTags/tag-relation-learning/tree/master/Hierarchy%20Visualisation) folder. Two of the learned hierarchies are displayed below.
 
 ![alt text](https://github.com/acadTags/tag-relation-learning/blob/master/Hierarchy%20Visualisation/data_mining_dbpedia_svm.PNG)
 ![alt text](https://github.com/acadTags/tag-relation-learning/blob/master/Hierarchy%20Visualisation/machine_learning_acm_svm.PNG)
