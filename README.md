@@ -1,6 +1,6 @@
 # tag-relation-learning
 
-This program contains the source code and materials for the paper titled "Knowledge Base Enrichment by Relation Learning from Social Tagging Data", submitted to _Information Science_. Feature set files and data, over the size limit of GitHub, can be downloaded from [OneDrive](https://1drv.ms/u/s!AlvsB_ZEXPkijpsP_SYP_V96HdmAMA) or [Baidu Drive](https://pan.baidu.com/s/1Gj1nHV5GKAWQru46lmcJXw)```password:pqhn```.
+This program contains the source code and materials for the paper titled "Knowledge Base Enrichment by Relation Learning from Social Tagging Data", submitted to _Information Science_. Feature set files and Knowledge Base files, over the size limit of GitHub, can be downloaded from [OneDrive](https://1drv.ms/u/s!AlvsB_ZEXPkijpsP_SYP_V96HdmAMA) or [Baidu Drive](https://pan.baidu.com/s/1Gj1nHV5GKAWQru46lmcJXw)```password:pqhn```.
 
 Preprint will be available soon.
 
