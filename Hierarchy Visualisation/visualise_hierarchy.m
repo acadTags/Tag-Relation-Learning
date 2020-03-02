@@ -1,4 +1,4 @@
-% set the hierarchy_mat_name to the one to be visulised.
+% set the hierarchy_mat_name to the one to be visualised.
 hierarchy_mat_name = 'data_mining_dbpedia_svm_14ft';
 load([hierarchy_mat_name '.mat'])
 relations = eval(hierarchy_mat_name);
