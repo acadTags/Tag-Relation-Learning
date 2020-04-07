@@ -54,3 +54,14 @@ Code relevant to the retrieval or querying of Knowledge Bases is in the package 
 * The whole Microsoft Concept Graph is acquired from https://concept.research.microsoft.com/Home/Introduction.
 * The DBpedia dataset, 2015-10 version, is from http://downloads.dbpedia.org/2015-10/.
 * The ACM Computing Classification System is from https://www.acm.org/publications/class-2012.
+
+# How to cite
+@article{DONG2020,
+title = "Knowledge Base Enrichment by Relation Learning from Social Tagging Data",
+journal = "Information Sciences",
+year = "2020",
+issn = "0020-0255",
+doi = "https://doi.org/10.1016/j.ins.2020.04.002",
+url = "http://www.sciencedirect.com/science/article/pii/S0020025520303017",
+author = "Hang Dong and Wei Wang and Frans Coenen and Kaizhu Huang",
+}
