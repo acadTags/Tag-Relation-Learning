@@ -56,6 +56,7 @@ Code relevant to the retrieval or querying of Knowledge Bases is in the package 
 * The ACM Computing Classification System is from https://www.acm.org/publications/class-2012.
 
 # How to cite
+```
 @article{DONG2020,
 title = "Knowledge Base Enrichment by Relation Learning from Social Tagging Data",
 journal = "Information Sciences",
@@ -65,3 +66,4 @@ doi = "https://doi.org/10.1016/j.ins.2020.04.002",
 url = "http://www.sciencedirect.com/science/article/pii/S0020025520303017",
 author = "Hang Dong and Wei Wang and Frans Coenen and Kaizhu Huang",
 }
+```
