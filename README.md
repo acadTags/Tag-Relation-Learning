@@ -56,6 +56,8 @@ Code relevant to the retrieval or querying of Knowledge Bases is in the package 
 * The ACM Computing Classification System is from https://www.acm.org/publications/class-2012.
 
 # How to cite
+
+Please cite with the Bibtex below if you are interested in this study.
 ```
 @article{DONG2020,
 title = "Knowledge Base Enrichment by Relation Learning from Social Tagging Data",
